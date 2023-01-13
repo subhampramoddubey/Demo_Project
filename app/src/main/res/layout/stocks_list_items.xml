@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="71dp"
+    android:layout_marginTop="11dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="40sp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/ic_sbi_state_bank_of_india" />
+
+    <TextView
+        android:id="@+id/Ticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/logo"
+        android:textSize="30dp"
+        tools:text="SBI"
+
+        />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@+id/logo"
+        android:maxLength="28"
+        android:textSize="14dp"
+        tools:text="STATE BANK OF INDIA" />
+
+    <TextView
+        android:id="@+id/last_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:textSize="18sp"
+        tools:text="450" />
+
+    <TextView
+        android:id="@+id/change_in_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="11dp"
+        android:layout_toLeftOf="@+id/percent_change"
+        android:textSize="16sp"
+        tools:text="+4.50" />
+
+    <TextView
+        android:id="@+id/percent_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:textSize="16sp"
+        android:layout_marginRight="6dp"
+        tools:text="+0.97%" />
+
+
+
+</RelativeLayout>

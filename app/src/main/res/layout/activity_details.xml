@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_in_detail_layout"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_sbi_state_bank_of_india" />
+
+        <TextView
+            android:id="@+id/Ticker_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/logo_in_detail_layout"
+            android:text="SBI"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:id="@+id/company_name_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo_in_detail_layout"
+            android:maxLength="21"
+            android:text="abc"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/last_price_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="6dp"
+            android:text="450"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/change_in_price_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toLeftOf="@+id/percent_change_detail_layout"
+            android:text="+4.50"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/percent_change_detail_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="11dp"
+            android:text="+0.97%"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_alignBottom="@+id/a1"
+        />
+
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_below="@+id/a1"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:textSize="27dp"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        />
+    <LinearLayout
+        android:id="@+id/a3"
+        android:layout_below="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="17dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TODAY OPEN      :"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/today_open_detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="520"
+            android:paddingLeft="11dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/a3"
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TODAY HIGH       :"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/today_high_detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="520"
+            android:paddingLeft="11dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/a4"
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TODAY LOW        :"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/today_low_detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="520"
+            android:paddingLeft="11dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/a5"
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="P.D.CLOSE           :"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/lastDay_close_detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="520"
+            android:paddingLeft="11dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/a6"
+        android:id="@+id/a7"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TODAY Volume  :"
+            android:layout_marginLeft="11dp"
+            />
+
+        <TextView
+            android:id="@+id/today_Volume_detail_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="520"
+            android:paddingLeft="11dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/a7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="ORDER TYPE"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="DELIVERY"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="151dp"
+        android:text="QUANTITY"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <Button
+            android:text="SELL"
+            android:id="@+id/sell_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F40000"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            />
+
+        <Button
+            android:id="@+id/buy_button"
+            android:text="BUY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#028045"
+            android:layout_weight="@integer/material_motion_duration_long_1"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

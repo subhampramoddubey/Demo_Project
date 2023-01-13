@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WatchList"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="11dp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_sbi_state_bank_of_india" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/logo"
+            android:text="SBI"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo"
+            android:text="STATE BANK OF INDIA"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="450"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_tata_logo" />
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo2"
+            android:text="TATA MOTOR"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo2"
+            android:text="TATA MOTOR LTD."
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_mahindra_mahindra_logo" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo3"
+            android:text="M&amp;M"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo3"
+            android:text="MAHINDRA AND MAHINDRA L.."
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo4"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_bharti_airtel_limited" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo4"
+            android:text="BHARTIAIRTEL"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo4"
+            android:text="BHARTI AIRTEL LTD"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo5"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_sun_pharma_logo" />
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo5"
+            android:text="SUNPHARMA"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo5"
+            android:text="SUN PHARMASUTICALS LTD"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo6"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_cipla_logo" />
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo6"
+            android:text="CIPLA"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo6"
+            android:text="CIPLA LTD"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo7"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_zomato_2" />
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo7"
+            android:text="ZOMATO"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo7"
+            android:text="ZOMATO LTD"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:id="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <ImageView
+            android:id="@+id/logo8"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/ic_paytm_1" />
+
+        <TextView
+            android:id="@+id/TextView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logo8"
+            android:text="PAYTM"
+            android:textSize="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/logo8"
+            android:text="ONE 97 COMM.."
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/priceView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:text="TextVies2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextVies2"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

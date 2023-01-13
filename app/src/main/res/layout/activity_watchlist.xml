@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/list"
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_view"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <ProgressBar
+        android:id="@+id/loadring_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        style="@style/Widget.AppCompat.ProgressBar"
+
+        />
+
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/freeText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="700dp"-->
+<!--        android:layout_marginLeft="11dp"-->
+<!--        android:textSize="18dp"-->
+<!--        tools:text="STATE BANK OF INDIA"-->
+<!--        />-->
+
+<!--</LinearLayout>-->
+
+
