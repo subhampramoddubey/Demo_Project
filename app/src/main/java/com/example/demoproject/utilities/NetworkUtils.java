@@ -91,9 +91,12 @@ public final class NetworkUtils {
             } else {
                 return null;
             }
-        } finally {
+        }
+
+        finally {
             urlConnection.disconnect();
         }
+
     }
 
 

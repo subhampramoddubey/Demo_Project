@@ -44,6 +44,7 @@ public class StockAdapter extends ArrayAdapter<Stocks> {
         TextView percentChangeView = (TextView) listItemView.findViewById(R.id.percent_change);
         percentChangeView.setText(currentStock.getPercentChange());
 
+
         return listItemView;
     }
 }

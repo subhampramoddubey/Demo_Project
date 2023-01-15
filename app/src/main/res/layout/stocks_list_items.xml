@@ -1,79 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layout1"
     android:layout_width="match_parent"
-    android:layout_height="71dp"
-    android:layout_marginTop="11dp"
-    android:orientation="horizontal">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/frame_12"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginVertical="4dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/frame_12"
+        >
+
+        <TextView
+            android:id="@+id/Ticker"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:text="RELIANCE"
+
+            />
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_below="@+id/Ticker"
+            android:layout_marginLeft="16dp"
+            android:layout_marginVertical="4dp"
+            android:textSize="14sp"
+            android:maxWidth="156dp"
+            android:textColor="#5D5C5D"
+            android:ellipsize="end"
+            android:maxEms="11"
+            android:singleLine="true"
+            tools:text="RELIANCE IND" />
+
+        <TextView
+            android:id="@+id/last_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6.5dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="4500" />
+
+        <TextView
+            android:id="@+id/plusSign1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/change_in_price"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            tools:text="+" />
+
+        <TextView
+            android:id="@+id/change_in_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/plusSign2"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            tools:text="4.50" />
+
+        <TextView
+            android:id="@+id/plusSign2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/percent_change"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            tools:text="+" />
+
+        <TextView
+            android:id="@+id/percent_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginRight="12dp"
+            tools:text="0.97" />
+
+        <TextView
+            android:id="@+id/percentSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="14dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            tools:text="%" />
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="40sp"
-        android:layout_height="40dp"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/ic_sbi_state_bank_of_india" />
-
-    <TextView
-        android:id="@+id/Ticker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_toRightOf="@+id/logo"
-        android:textSize="30dp"
-        tools:text="SBI"
-
-        />
-
-    <TextView
-        android:id="@+id/company_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="11dp"
-        android:layout_marginBottom="8dp"
-        android:layout_toRightOf="@+id/logo"
-        android:maxLength="28"
-        android:textSize="14dp"
-        tools:text="STATE BANK OF INDIA" />
-
-    <TextView
-        android:id="@+id/last_price"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="6dp"
-        android:layout_marginRight="6dp"
-        android:textSize="18sp"
-        tools:text="450" />
-
-    <TextView
-        android:id="@+id/change_in_price"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="6dp"
-        android:layout_marginBottom="11dp"
-        android:layout_toLeftOf="@+id/percent_change"
-        android:textSize="16sp"
-        tools:text="+4.50" />
-
-    <TextView
-        android:id="@+id/percent_change"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="11dp"
-        android:textSize="16sp"
-        android:layout_marginRight="6dp"
-        tools:text="+0.97%" />
 
 
 
-</RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

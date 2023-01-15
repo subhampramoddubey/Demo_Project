@@ -45,7 +45,7 @@
             android:layout_toRightOf="@+id/logo_in_detail_layout"
             android:maxLength="21"
             android:text="abc"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/last_price_detail_layout"
@@ -269,9 +269,10 @@
     <EditText
         android:id="@+id/quantity"
         android:layout_width="151dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="100dp"
+        android:text="10"
         android:ems="10"
         android:inputType="number" />
 

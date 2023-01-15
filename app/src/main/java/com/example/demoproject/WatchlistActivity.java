@@ -35,8 +35,8 @@ public class WatchlistActivity extends AppCompatActivity implements
     private StockAdapter mAdaptor;
     private ProgressBar mProgressBar;
 
-    private static final String STATIC_JSON_URL =
-            "https://script.google.com/macros/s/AKfycbw62UgYHzVSsk0Afu-ffIcGVKfJOsZv7iGH1X4U-wTAWY3vxjaqhuTAINWJDsaI6qXM/exec?action=getdata";
+//    private static final String STATIC_JSON_URL =
+//            "https://script.google.com/macros/s/AKfycbw62UgYHzVSsk0Afu-ffIcGVKfJOsZv7iGH1X4U-wTAWY3vxjaqhuTAINWJDsaI6qXM/exec?action=getdata";
 
     private static final String STATIC_JSON_URL_NSE ="https://www.nseindia.com/api/equity-stockIndices?index=SECURITIES%20IN%20F%26O";
 
